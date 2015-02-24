@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Listado de Clientes </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mi Programa</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        
+
+        <li class="active"><a href="#">Clientes</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<div class="container">
+		<h1>Listado de Clientes <small>version 1</small></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quaerat temporibus libero! Aspernatur quidem ipsum laborum. Voluptas perspiciatis, commodi non officia dolorem, autem iure voluptates minus rerum quaerat consequuntur quae!</p>
+		<hr>
+		<div class="col-md-12">
+			<form role="form" action="">
+				<div class="form-group">
+					<label>Nombre</label>
+					<input class="form-control" type="text" placeholder="Ingrese su nombre ">
+				</div>
+				<div class="form-group">
+					<label>Apellido</label>
+					<input class="form-control" type="text" placeholder="Ingrese su nombre ">
+				</div>
+				<button class="btn btn-primary">Guardar</button>
+			</form>
+		</div>
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Nº</th>
+					<th>Nombre</th>
+					<th>Apellidos</th>
+					<th>Operaciones</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Esteban</td>
+					<td>Moran</td>
+					<td>
+					<a href="#"><button class="btn btn-success glyphicon glyphicon-floppy-open">
+						Modificar
+					</button></a> 
+					<a href="#"><button class="btn btn-danger glyphicon glyphicon-remove">Eliminar</button></a>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Guillermo</td>
+					<td>Rivas</td>
+					<td>
+					<a href="#"><button class="btn btn-success glyphicon glyphicon-floppy-open">
+					Modificar
+					</button></a> 
+					<a href="#"><button class="btn btn-danger glyphicon glyphicon-remove">Eliminar</button></a>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Jose </td>
+					<td>Oses</td>
+					<td>
+					<a href="#"><button class="btn btn-success glyphicon glyphicon-floppy-open">
+						Modificar
+					</button></a> 
+					<a href="#"><button class="btn btn-danger glyphicon glyphicon-remove">Eliminar</button></a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
